@@ -1,0 +1,1 @@
+{"key": "[\"extensions-1\", \"2.5.1\", 5441, \"cutoff\", [3000, 1.8, 0.405556, 36]]", "value": {"n": 3000, "gamma": 1.8, "alpha": 0.405556, "rep": 36, "K": 25, "S": 8620, "F": 0, "Q": 0, "a": 0.0, "graphical": true, "k_star": NaN, "k_last": NaN, "c_star": NaN, "c_last": NaN, "h_star": NaN, "internal": NaN, "external": NaN, "f": NaN, "density": 0.0009580971434922752}}

@@ -1,0 +1,108 @@
+{
+  "mode": "full",
+  "sizes": [
+    100,
+    300,
+    1000,
+    3000,
+    10000
+  ],
+  "gammas": [
+    -0.5,
+    -0.4,
+    -0.3,
+    -0.2,
+    -0.1,
+    -0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0,
+    1.1,
+    1.2,
+    1.3,
+    1.4,
+    1.5,
+    1.6,
+    1.7,
+    1.8,
+    1.9,
+    2.0,
+    2.1,
+    2.2,
+    2.3,
+    2.4,
+    2.5,
+    2.6,
+    2.7,
+    2.8,
+    2.9,
+    3.0
+  ],
+  "repeats": 200,
+  "bootstraps": 1000,
+  "local_gammas": [
+    1.3,
+    1.5,
+    1.8
+  ],
+  "erase_sizes": [
+    200,
+    500,
+    1000
+  ],
+  "erase_gammas": [
+    0.5,
+    1.3,
+    1.8,
+    2.5
+  ],
+  "erase_repeats": 200,
+  "pairings": 5,
+  "seed": 5441,
+  "model": "IID discrete power law on 1,...,n-1, conditioned on even sum",
+  "python": "3.13.14",
+  "numpy": "2.5.1",
+  "pandas": "3.0.5",
+  "matplotlib": "3.11.0",
+  "history": [
+    {
+      "seed": 5441,
+      "repeats": 200,
+      "erase_repeats": 50,
+      "pairings": 5,
+      "python": "3.13.14",
+      "numpy": "2.5.1",
+      "pandas": "3.0.5",
+      "matplotlib": "3.11.0"
+    },
+    {
+      "seed": 5441,
+      "repeats": 200,
+      "erase_repeats": 200,
+      "pairings": 5,
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "matplotlib": "3.10.8"
+    }
+  ],
+  "cache": "Existing keyed samples reused; missing replications appended. Versions in history may differ.",
+  "rng": "SeedSequence([seed, stream, n, round(1000*(gamma+10)), rep, pairing])",
+  "streams": {
+    "targets": 0,
+    "erasure_targets": 1,
+    "pairings": 2,
+    "bootstrap": "90 + first 4 bytes of SHA256(metric), little endian; conditional groups add 1 or 2"
+  },
+  "intervals": "Pointwise 95%: Wilson for graphicality; percentile bootstrap across targets for means. Constant samples have missing mean intervals, not zero-width intervals.",
+  "conditioning": "Obstruction metrics condition on Q>0. Erasure pairings averaged within each target.",
+  "quantiles": "Midpoint inverse CDF; increase one smallest eligible degree by one if sum is odd.",
+  "half_limits": "Gamma=1/2 continuum limit; finite-n Monte Carlo intervals exclude approximation error."
+}

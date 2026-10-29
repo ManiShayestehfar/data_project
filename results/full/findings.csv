@@ -1,0 +1,8 @@
+experiment,gamma,n,observation,qualification
+scaling,1.3,100000,scaled retained mean=2.437; slope=-0.124,predicted slope=-0.162; finite-size diagnostic
+scaling,1.5,100000,scaled retained mean=2.494; slope=-0.143,predicted slope=-0.167; finite-size diagnostic
+scaling,1.8,100000,scaled retained mean=1.829; slope=-0.080,predicted slope=-0.089; finite-size diagnostic
+erasure,1.3,3000,mean targetwise efficiency=0.756; additive gap=0.143,No asymptotic efficiency limit established
+erasure,1.5,3000,mean targetwise efficiency=0.739; additive gap=0.159,No asymptotic efficiency limit established
+erasure,1.8,3000,mean targetwise efficiency=0.711; additive gap=0.247,No asymptotic efficiency limit established
+erasure,2.5,3000,mean targetwise efficiency=0.976; additive gap=0.024,No asymptotic efficiency limit established

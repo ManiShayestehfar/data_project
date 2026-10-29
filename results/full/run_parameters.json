@@ -1,0 +1,55 @@
+{
+  "version": "extensions-1",
+  "seed": 5441,
+  "config": {
+    "sizes": [
+      1000,
+      3000,
+      10000,
+      30000,
+      100000
+    ],
+    "gammas": [
+      1.3,
+      1.5,
+      1.8
+    ],
+    "repeats": 100,
+    "erase_sizes": [
+      200,
+      500,
+      1000,
+      3000
+    ],
+    "erase_gammas": [
+      1.3,
+      1.5,
+      1.8,
+      2.5
+    ],
+    "erase_repeats": 100,
+    "pairings": 5,
+    "cutoff_sizes": [
+      100,
+      300,
+      1000,
+      3000,
+      10000
+    ],
+    "cutoff_gammas": [
+      1.3,
+      1.8
+    ],
+    "cutoff_repeats": 100,
+    "profile_n": 40,
+    "bootstraps": 1000
+  },
+  "python": "3.13.14",
+  "numpy": "2.5.1",
+  "pandas": "3.0.5",
+  "scipy": "1.18.0",
+  "model": "IID discrete power law, whole-target rejection on odd degree sum",
+  "repair": "Q=2 ceil(F/2); cross-checked by independent capped MILP on small cases",
+  "uncertainty": "Pointwise target-bootstrap means; Wilson graphicality intervals. Pairings averaged within targets.",
+  "cache": "Per-sample parameters, seed, code schema and NumPy version; atomic per-sample JSON files."
+}
